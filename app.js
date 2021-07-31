@@ -13,9 +13,9 @@ const mysql = require('mysql');
 const { response } = require('express');
 
 const con= mysql.createConnection({
-  host: '3.143.232.77',
-  user:'jasonoh22',
-  password: '1234'
+  host: '3.36.115.233',
+  user:'alexpark216',
+  password: 'park96'
 });
 
 con.connect(function(err) {
